@@ -1,6 +1,4 @@
 function f = recursion_fact(n)
-% check if n is not 1-by-1 scalar, not an integer or negative
-% return error message.
 	if ~isscalar(n) || n ~= fix(n) || n < 0
 		error('non-negative integer scalar input expected');
     	end
